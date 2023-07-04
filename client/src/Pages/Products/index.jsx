@@ -3,7 +3,7 @@ import Cards from "../../components/Cards";
 import { useQuery } from "@tanstack/react-query";
 import styles from "./styles.module.css";
 import { Spinner, Box } from "@chakra-ui/react";
-import { fetcher } from "../../api";
+import { fetcher } from "../../api.jsx";
 
 function Products() {
   const { isLoading, isError, data } = useQuery({
