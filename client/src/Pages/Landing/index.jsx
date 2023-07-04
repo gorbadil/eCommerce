@@ -1,6 +1,6 @@
 import Hero from "../../components/Hero";
 import { useQuery } from "@tanstack/react-query";
-import { fetcher } from "../../api";
+import { fetcher } from "../../api.jsx";
 import { Spinner, Text, Divider } from "@chakra-ui/react";
 import Cards from "../../components/Cards";
 import styles from "./styles.module.css";

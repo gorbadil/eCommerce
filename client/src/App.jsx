@@ -8,7 +8,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import ProductDetails from "./Pages/ProductDetails";
 import ProductCategory from "./Pages/ProductCategory";
-import Basket from "./Pages/Basket"
+import Basket from "./Pages/Basket";
 
 function App() {
   return (
@@ -28,10 +28,7 @@ function App() {
             component={ProductCategory}
             replace
           />
-          <Route
-            path="/basket"
-            component={Basket}
-          />
+          <Route path="/basket" component={Basket} />
         </Switch>
         <Footer />
       </div>

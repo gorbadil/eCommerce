@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import styles from "./styles.module.css";
-import { fetcherCategories } from "../../api";
+import { fetcherCategories } from "../../api.jsx";
 import { useQuery } from "@tanstack/react-query";
 import { useBasket } from "../../context/Basket";
 import {

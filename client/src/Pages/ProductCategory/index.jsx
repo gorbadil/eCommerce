@@ -4,7 +4,7 @@ import Cards from "../../components/Cards";
 import { useQuery } from "@tanstack/react-query";
 import styles from "./styles.module.css";
 import { Spinner, Box } from "@chakra-ui/react";
-import { fetcherProductCategory } from "../../api";
+import { fetcherProductCategory } from "../../api.jsx";
 import { useEffect } from "react";
 
 function ProductCategory() {

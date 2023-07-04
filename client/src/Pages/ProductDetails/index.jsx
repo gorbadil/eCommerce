@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 import { useParams } from "react-router-dom";
 import { Spinner } from "@chakra-ui/react";
 import { useQuery } from "@tanstack/react-query";
-import { fetcherProductDetail } from "../../api";
+import { fetcherProductDetail } from "../../api.jsx";
 import { StarIcon } from "@chakra-ui/icons";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
