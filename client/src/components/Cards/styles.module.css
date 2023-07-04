@@ -1,0 +1,8 @@
+.cardDiv {
+  width: 100%;
+}
+.cardImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

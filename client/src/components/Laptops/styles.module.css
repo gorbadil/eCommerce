@@ -1,0 +1,18 @@
+.gamingRoom {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  padding: 100px;
+}
+
+@media screen and (max-width: 760px) {
+  .gamingRoom {
+    flex-direction: column;
+    width: 100vw;
+    gap: 0;
+    padding: 100px 50px;
+  }
+}
