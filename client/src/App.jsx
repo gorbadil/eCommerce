@@ -1,7 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import SignIn from "./Pages/Auth/SignIn";
-import SignOut from "./Pages/Auth/SignOut";
 import Products from "./Pages/Products";
 import Landing from "./Pages/Landing";
 import "./App.css";
