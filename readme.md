@@ -6,7 +6,7 @@ This is a website for a dummy ecommerce website for my portfolio.
 
 It is built with React, React Router, React Query and Chakra UI. It is a single page application with a cart and checkout page. Sort items on category, add to basket and checkout. The checkout page is a dummy page with no payment gateway.
 
-## Table of Contents
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
